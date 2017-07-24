@@ -1,0 +1,124 @@
+body {
+    font-family: 'Helvetica'; /*Pick a font*/
+    margin: 0px;
+}
+
+/*These are Navbar properties - they give it a shadow, allow it to stay fixed at the top of the window, and style the links*/
+.navbar {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.95);
+    left: 0px;
+    top: 0px;
+    text-align: right;
+    
+
+    /*-webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.5);*/
+}
+
+    .navbar a {
+        line-height: 60px;
+        font-size: 20px;
+        color: black;
+        width: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: none;
+        padding-left: 5px;
+        text-decoration: none;
+        padding-right: 150px;
+    }
+
+        .navbar a:hover {
+            color: rgb(255, 0, 0);
+        }
+
+    .navbar p {
+        text-align: left;
+        padding-left: 150px;
+        color: red;
+        font-size: 40px;
+        float: left;
+        line-height: 0px;
+
+    }
+
+
+
+#frontPage {
+    margin-top: 60px;
+}
+
+h1 {
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 75px;
+
+}
+
+h2 {
+    position: absolute;
+    top: 330px;
+    left: 150px;
+    color: white;
+    font-size: 20px;
+
+}
+
+#frontSideBar {
+    position: absolute;
+    background-color: rgba(255, 0, 0, .60);
+    width: 350px;
+    height: 75px;
+    right:0px;
+    top: 500px;
+}
+
+#skills {
+    position: absolute;
+    top: 750px;
+    right: 150px;
+    left: 150px;
+
+}
+
+.leftSkill {
+    background-color: rgba(236, 235, 233, .95);
+    height: 300px;
+    width: calc((100% - 50px) / 3);
+    margin-right: 25px;
+    margin-bottom: 25px;
+    float: left;
+}
+    .leftSkill img {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+.centerSkill {
+    background-color: rgba(236, 235, 233, .95);
+    height: 200px;
+    width: calc((100% - 50px) / 3);
+    margin-bottom: 25px;
+    float: left;
+
+}
+
+.rightSkill {
+    background-color: rgba(236, 235, 233, .95);
+    height: 200px;
+    width: calc((100% - 50px) / 3);
+    margin-left: 25px;
+    margin-bottom: 25px;
+    float: left;
+
+}
