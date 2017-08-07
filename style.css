@@ -17,7 +17,7 @@ body {
 
     .navbar a {
         line-height: 60px;
-        font-size: 20px;
+        font-size: 30px;
         color: black;
         width: auto;
         margin-top: 0px;
@@ -39,7 +39,7 @@ body {
         font-size: 40px;
         float: left;
         line-height: 0px;
-
+        margin-top: 30px;
     }
 
 
@@ -70,9 +70,11 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
-
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #frontSideBar {
@@ -94,7 +96,7 @@ h3 {
 
 #skills {
     position: relative;
-    top: 0px;
+    top: 10px;
     right: 150px;
     left: 150px;
     width: calc(100% - 300px);
@@ -150,6 +152,8 @@ h3 {
         color: rgb(40, 40, 40);
         margin-top: 10px;
         text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
 
     }
     .centerSkill img {
@@ -214,7 +218,7 @@ h3 {
     bottom: 0px;
     margin-top: 0px;   
     width: 100%;
-    height: 150px;
+    height: 125px;
 }
     #footer img.resize {
         height: 50px;
@@ -231,6 +235,9 @@ h3 {
         padding-left: 10px;
         text-decoration: none;
     }
+        #footer a:hover {
+            color: black;
+        }
 
 #footercon {
     display: flex;
