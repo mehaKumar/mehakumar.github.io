@@ -1,0 +1,33 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0em;
+}
+
+#left {
+    width: 30%;
+    border: solid blue;
+    float: left;
+}
+
+#right {
+    width: 65%;
+    border: solid red;
+    float: right;
+}
+
+#navbar {
+    height: 5em;
+}
+
+
+    #navbar li {
+        display: inline;
+    }
+
+.headshot {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
