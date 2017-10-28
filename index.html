@@ -19,7 +19,7 @@ xhtml">
 
     <div id = "left">
         <img src="headshot_circle.png" class = "headshot" image.res>
-        <h1 id = "hi">Meha Kumar</h1>
+        <h1 id = "name">Meha Kumar</h1>
         <h2 id = "skill">Computer Science Major at Georgia Tech</h2>
     </div>
 
@@ -30,30 +30,23 @@ xhtml">
            onmouseout='document.getElementById("skill").innerHTML = "Computer Science Major at Georgia Tech"'>P2</p> -->
         <div class = "row">
             <div class="column">
-                <img src="github.png" onmouseover="onHover('P1')" onmouseout="offHover()">
-                    <input type="hidden" id="P1" value = "P1">
-                <img src="github.png" onmouseover="onHover('P2')" onmouseout="offHover()">
-                    <input type="hidden" id="P2" value = "P2">
+                <div id="P1" onmouseover="onHover('P1')" onmouseout="offHover()"></div>
+                <div id="P2" onmouseover="onHover('P2')" onmouseout="offHover()"></div>
             </div>
             <div class="column">
-                <img src="github.png" onmouseover="onHover('P3')" onmouseout="offHover()">
-                    <input type="hidden" id="P3" value = "P3">
-                <img src="github.png" onmouseover="onHover('P4')" onmouseout="offHover()">
-                    <input type="hidden" id="P4" value = "P4">
+                <div id="P3" onmouseover="onHover('P3')" onmouseout="offHover()"></div>
+                <div id="P4" onmouseover="onHover('P4')" onmouseout="offHover()"></div>
             </div>
             <div class="column">
-                <img src="github.png" onmouseover="onHover('P5')" onmouseout="offHover()">
-                    <input type="hidden" id="P5" value = "P5">
-                <img src="github.png" onmouseover="onHover('P6')" onmouseout="offHover()">
-                    <input type="hidden" id="P6" value = "P6">
+                <div id="P5" onmouseover="onHover('P5')" onmouseout="offHover()"></div>
+                <div id="P6" onmouseover="onHover('P6')" onmouseout="offHover()"></div>
             </div>
         </div>
     </div>
 
     <script>
         function onHover(desc) {
-            var str = document.getElementById(desc).value;
-            document.getElementById("skill").innerHTML = "you hovered over " + str;
+            document.getElementById("skill").innerHTML = "you hovered over " + desc;
         }
 
         function offHover() {
