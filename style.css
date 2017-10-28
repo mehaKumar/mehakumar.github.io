@@ -5,11 +5,33 @@ body {
 
 /* NAVBAR at the top of all pages */
 #navbar {
-    height: 5vh;
+    height: 7vh;
+    background-color: #666;
+    margin: 0px;
+    padding: 0px;
 }
+    #navbar ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+
+    }
     #navbar li {
         display: inline;
+        float: right;
     }
+        #navbar li a {
+            font-size: 5vh;
+            text-decoration: none;
+            padding-left: 2vh;
+            padding-right: 2vh;
+            color: white;
+        }
+            #navbar li a:hover {
+                background-color: #777;
+            }
+
 
 /* Homepage LEFT side
        includes headshot, name, and skill*/
