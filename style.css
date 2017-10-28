@@ -5,7 +5,7 @@ body {
 
 /* NAVBAR at the top of all pages */
 #navbar {
-    height: 7vh;
+    height: 8vh;
     background-color: #666;
     margin: 0px;
     padding: 0px;
@@ -15,18 +15,23 @@ body {
         margin: 0px;
         padding: 0px;
         overflow: hidden;
+        height: 100%;
 
     }
     #navbar li {
         display: inline;
         float: right;
+        margin: none;
+        height: 100%;
     }
         #navbar li a {
             font-size: 5vh;
+            display: block;
             text-decoration: none;
             padding-left: 2vh;
             padding-right: 2vh;
             color: white;
+            line-height: 8vh;
         }
             #navbar li a:hover {
                 background-color: #777;
