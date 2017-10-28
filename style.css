@@ -5,6 +5,7 @@ body {
 
 #left {
     width: 34%;
+    height: 90vh;
     border: solid blue;
     float: left;
 }
@@ -23,14 +24,14 @@ body {
 
 #right {
     width: 65%;
+    height: 90vh;
     border: solid red;
     float: right;
 }
 
 #navbar {
-    height: 5em;
+    height: 5vh;
 }
-
 
     #navbar li {
         display: inline;
@@ -41,4 +42,22 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1em;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0px;
+}
+
+    .column img {
+        margin-top: 0px;
+        width: 100%;
+    }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
