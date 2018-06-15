@@ -21,32 +21,34 @@ xhtml">
         <img src="headshot_circle.png" class = "headshot" image.res>
         <h1 id = "name">Meha Kumar</h1>
         <h2 id = "skill">Computer Science Major at Georgia Tech</h2>
+        <div id="medialinks">
+        	<a href="https://www.facebook.com/meha.kumar.2" target="blank"><img src="facebook.png" height="100%"></a>
+        	<a href="https://linkedin.com/in/meha-kumar/" target="blank"><img src="linkedin.png" height="100%"></a>
+        	<a href="https://github.com/mehaKumar" target="blank"><img src="github.png" height="100%"></a>
+        	<a href="https://devpost.com/mehaKumar" target="blank"><img src="devpost.png" height="100%"></a>
+        </div>
     </div>
 
     <div id = "right">
-        <!-- <p onmouseover='document.getElementById("skill").innerHTML = "you hovered over P1"'
-           onmouseout='document.getElementById("skill").innerHTML = "Computer Science Major at Georgia Tech"'>P1</p>
-        <p onmouseover='document.getElementById("skill").innerHTML = "you hovered over P2"'
-           onmouseout='document.getElementById("skill").innerHTML = "Computer Science Major at Georgia Tech"'>P2</p> -->
         <div class = "row">
             <div class="column">
-                <div id="P1" onmouseover="onHover('P1')" onmouseout="offHover()"></div>
-                <div id="P2" onmouseover="onHover('P2')" onmouseout="offHover()"></div>
+                <div id="P1" onmouseover="onHover('Undergraduate research scholar')" onmouseout="offHover()"></div>
+                <div id="P2" onmouseover="onHover('Undergraduate teaching assistant')" onmouseout="offHover()"></div>
             </div>
             <div class="column">
-                <div id="P3" onmouseover="onHover('P3')" onmouseout="offHover()"></div>
-                <div id="P4" onmouseover="onHover('P4')" onmouseout="offHover()"></div>
+                <div id="P3" onmouseover="onHover('Software engineering intern')" onmouseout="offHover()"></div>
+                <div id="P4" onmouseover="onHover('Award-winning hacker')" onmouseout="offHover()"></div>
             </div>
             <div class="column">
-                <div id="P5" onmouseover="onHover('P5')" onmouseout="offHover()"></div>
-                <div id="P6" onmouseover="onHover('P6')" onmouseout="offHover()"></div>
+                <div id="P5" onmouseover="onHover('Adventurous innovator')" onmouseout="offHover()"></div>
+                <div id="P6" onmouseover="onHover('Mentor to girls in CS')" onmouseout="offHover()"></div>
             </div>
         </div>
     </div>
 
     <script>
         function onHover(desc) {
-            document.getElementById("skill").innerHTML = "you hovered over " + desc;
+            document.getElementById("skill").innerHTML = desc;
         }
 
         function offHover() {
