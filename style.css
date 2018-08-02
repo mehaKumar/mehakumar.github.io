@@ -6,7 +6,7 @@ body {
 /* NAVBAR at the top of all pages */
 #navbar {
     height: 8vh;
-    background-color: #666;
+    background-color: #EAAA00;
     margin: 0px;
     padding: 0px;
 }
@@ -125,7 +125,7 @@ body {
     }
 
 #P3 {
-    background: url('jdalogo.png');
+    background: url('mkumarJDA.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-top: 0px;
@@ -133,7 +133,7 @@ body {
     height: 45.5vh;
 }
     #P3:hover {
-        background: url('jdalogo.png');
+        background: url('mkumarJDA.jpg');
         opacity: .7;
         background-repeat: no-repeat;
         background-size: 100% 100%;
