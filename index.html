@@ -10,61 +10,51 @@ xhtml">
 </head>
 
 <body>
+    <header id = "navbar">
+        <ul>
+            <li><a href="mailto:mkumar77@gatech.edu" target="blank">Contact</a></li>
+            <li><a href="Kumar_Meha_Resume.pdf" target="blank">Resume</a></li>
+        </ul>
+    </header>
 
-	<header class="navbar">
+    <div id = "left">
+        <img src="headshot_circle.png" class = "headshot" image.res>
+        <h1 id = "name">Meha Kumar</h1>
+        <h2 id = "skill">Computer Science Major at Georgia Tech</h2>
+        <div id="medialinks">
+        	<a href="https://www.facebook.com/meha.kumar.2" target="blank"><img src="facebook.png" height="100%"></a>
+        	<a href="https://linkedin.com/in/meha-kumar/" target="blank"><img src="linkedin.png" height="100%"></a>
+        	<a href="https://github.com/mehaKumar" target="blank"><img src="github.png" height="100%"></a>
+        	<a href="https://devpost.com/mehaKumar" target="blank"><img src="devpost.png" height="100%"></a>
+        </div>
+    </div>
 
-	    <p>MK</p>
-		<a href="Kumar_Meha_Resume.pdf" target="_blank">Resume</a>
-		<a href="#footer">Contact</a>
+    <div id = "right">
+        <div class = "row">
+            <div class="column">
+                <div id="P1" onmouseover="onHover('Undergraduate research scholar')" onmouseout="offHover()"></div>
+                <div id="P2" onmouseover="onHover('Undergraduate teaching assistant')" onmouseout="offHover()"></div>
+            </div>
+            <div class="column">
+                <div id="P3" onmouseover="onHover('Software engineering intern')" onmouseout="offHover()"></div>
+                <div id="P4" onmouseover="onHover('Award-winning hacker')" onmouseout="offHover()"></div>
+            </div>
+            <div class="column">
+                <div id="P5" onmouseover="onHover('Adventurous innovator')" onmouseout="offHover()"></div>
+                <div id="P6" onmouseover="onHover('Mentor to girls in CS')" onmouseout="offHover()"></div>
+            </div>
+        </div>
+    </div>
 
-	</header>
+    <script>
+        function onHover(desc) {
+            document.getElementById("skill").innerHTML = desc;
+        }
 
-	<div id="frontPage">
-
-		<img src="headshot.jpg" width="100%">
-		<h1>Meha<br>Kumar</h1>
-		<h2>Computer Science major<br>at Georgia Tech</h2>
-		<div id="frontSideBar">
-			<a href="https://github.com/mehaKumar"><img src="github.png" class="resize"></a>
-			<a href="https://www.linkedin.com/in/meha-kumar-4019ba147/"><img src="linkedin.png" class="resize"></a>
-			<a href="https://www.facebook.com/meha.kumar.2"><img src="facebook.png" class="resize"></a>
-		</div>
-
-		<div>
-		<div id="skills">
-
-			<div class="leftSkill">
-				<img src="code.png">
-				<div class="header">Programming</div>
-				<div class="text">Python, HTML/CSS, MATLAB</div>
-			</div>
-
-			<div class="centerSkill">
-				<img class="resize" src="global_lang.png">
-				<div class="header">Communication</div>
-				<div class="text">TA for introductory computer science<br>Poster presentations<br>Mentor to middle school girls<br>Fluent in English and Spanish</div>
-			</div>
-
-			<div class="rightSkill">
-				<img src="lab_logo.png" class="resize">
-				<div class="header">Laboratory</div>
-				<div class="text">Tensile testing, stereology, metal sample polishing, laser cutting, water jet</div>
-			</div>
-
-		</div>
-
-		<div id="footer">
-			<h3>Contact me!</h3>
-			<div id="footercon">
-			<img class="resize" src="email_icon.png">
-			<a href="mailto:mkmar77@gatech.edu">mkumar77@gatech.edu</a>
-			</div>
-		</div>
-		</div>
-
-	</div>
-
-
+        function offHover() {
+            document.getElementById("skill").innerHTML = "Computer Science Major at Georgia Tech";
+        }
+    </script>
 
 
 </body>
